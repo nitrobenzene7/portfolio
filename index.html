@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sandip Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a href="#hero" class="logo">SG</a>
+        <nav class="primary-nav" aria-label="Main navigation">
+          <button
+            class="nav-toggle"
+            aria-expanded="false"
+            aria-controls="navigation-menu"
+          >
+            <span class="nav-toggle-line"></span>
+            <span class="nav-toggle-line"></span>
+          </button>
+          <ul id="navigation-menu" class="nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="hero" aria-labelledby="hero-title">
+        <div class="container hero-grid">
+          <div class="hero-content">
+            <p class="eyebrow">Hello, I’m</p>
+            <h1 id="hero-title">Subrat Humagain </h1>
+            <p class="hero-subtitle">
+              Computer Engineering student at Advanced College of Engineering,
+              passionate about web technologies and AI.I am also passionate about 
+              the stock markets and trading. Building trading bots and trading 
+              strategies and also trading algorithms for the forex markets.
+            </p>
+            <div class="hero-actions">
+              <a href="#skills" class="btn primary-btn">View My Skills</a>
+              <a href="#contact" class="btn ghost-btn">Contact Me</a>
+            </div>
+            <dl class="hero-meta">
+              <div>
+                <dt>Location</dt>
+                <dd>Kathmandu, Nepal</dd>
+              </div>
+              <div>
+                <dt>Focus</dt>
+                <dd>Web Development & AI/ML</dd>
+              </div>
+            </dl>
+          </div>
+          <aside class="hero-aside" aria-label="Profile summary">
+            <div class="profile-card">
+              <div class="profile-avatar">
+                <img
+                  src="profile.jpg"
+                  alt="Portrait of Subrat Humagain"
+                  class="profile-photo"
+                />
+              </div>
+              <h2>Profile</h2>
+              <p>
+                Computer engineering student who enjoys building things that look
+                good and work well—from web interfaces to trading algorithms.
+              </p>
+              <a href="#about" class="profile-link">More about me →</a>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section id="about" class="section about" aria-labelledby="about-title">
+        <div class="container section-inner">
+          <header class="section-header">
+            <p class="section-eyebrow">About</p>
+            <h2 id="about-title">A bit about me</h2>
+          </header>
+          <div class="about-grid">
+            <article>
+              <p>
+                I’m currently pursuing my Bachelor’s in Computer Engineering at
+                Advanced College of Engineering. I enjoy turning ideas into
+                interactive, responsive interfaces and writing clean, readable
+                code.
+              </p>
+              <p>
+                I’m keen on learning and adapting to new technologies, and I
+                believe in building projects that not only work well but are
+                also pleasant to use.
+              </p>
+            </article>
+            <aside aria-label="Quick facts">
+              <ul class="fact-list">
+                <li>
+                  <span class="fact-label">Degree</span>
+                  <span class="fact-value">B.E. Computer Engineering</span>
+                </li>
+                <li>
+                  <span class="fact-label">College</span>
+                  <span class="fact-value">Advanced College of Engineering</span>
+                </li>
+                <li>
+                  <span class="fact-label">Interests</span>
+                  <span class="fact-value">Travel, Music, Building projects</span>
+                </li>
+              </ul>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section skills" aria-labelledby="skills-title">
+        <div class="container section-inner">
+          <header class="section-header">
+            <p class="section-eyebrow">Skills</p>
+            <h2 id="skills-title">What I work with</h2>
+          </header>
+          <div class="skills-grid">
+            <article class="skill-card">
+              <h3>Frontend</h3>
+              <ul>
+                <li>HTML5 &amp; Semantic Markup</li>
+                <li>CSS3, Flexbox &amp; Grid</li>
+                <li>Responsive Design</li>
+              </ul>
+            </article>
+            <article class="skill-card">
+              <h3>Programming</h3>
+              <ul>
+                <li>JavaScript (ES6+)</li>
+                <li>C / C++ (academic)</li>
+                <li>Problem Solving</li>
+              </ul>
+            </article>
+            <article class="skill-card">
+              <h3>Tools &amp; Workflow</h3>
+              <ul>
+                <li>Git &amp; GitHub</li>
+                <li>VS Code / Cursor</li>
+                <li>Figma (basic)</li>
+              </ul>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section
+        id="contact"
+        class="section contact"
+        aria-labelledby="contact-title"
+      >
+        <div class="container section-inner contact-layout">
+          <header class="section-header">
+            <p class="section-eyebrow">Contact</p>
+            <h2 id="contact-title">Let’s connect</h2>
+            <p class="section-description">
+              Have a question, an idea, or just want to say hi? Feel free to
+              reach out.
+            </p>
+          </header>
+          <div class="contact-content">
+            <div class="contact-details">
+              <dl>
+                <div>
+                  <dt>Location</dt>
+                  <dd>Kathmandu, Nepal</dd>
+                </div>
+                <div>
+                  <dt>Email</dt>
+                  <dd>
+                    <a href="mailto:subrathumagain@gmail.com">subrathumagain@gmail.com</a>
+                  </dd>
+                </div>
+              </dl>
+            </div>
+            <form class="contact-form" action="#" method="post">
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="name">Name</label>
+                  <input type="text" id="name" name="name" required />
+                </div>
+                <div class="form-field">
+                  <label for="email">Email</label>
+                  <input type="email" id="email" name="email" required />
+                </div>
+              </div>
+              <div class="form-field">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn primary-btn full-width">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Subrat Humagain. All rights reserved.</p>
+        <ul class="footer-links">
+          <li>
+            <a href="#" aria-label="GitHub profile">GitHub</a>
+          </li>
+          <li>
+            <a href="#" aria-label="LinkedIn profile">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <script>
+      const yearSpan = document.getElementById("year");
+      if (yearSpan) {
+        yearSpan.textContent = new Date().getFullYear();
+      }
+
+      const navToggle = document.querySelector(".nav-toggle");
+      const navList = document.getElementById("navigation-menu");
+
+      if (navToggle && navList) {
+        navToggle.addEventListener("click", () => {
+          const expanded =
+            navToggle.getAttribute("aria-expanded") === "true" || false;
+          navToggle.setAttribute("aria-expanded", String(!expanded));
+          navList.classList.toggle("nav-list-open");
+        });
+      }
+    </script>
+  </body>
+</html>
+
